@@ -11,9 +11,7 @@ bg = pygame.image.load('road texture_img.jpg')
 pl_car = pygame.image.load('pl_car.png')
 en2 = pygame.image.load('en2.png')
 
-font = pygame.font.SysFont('Comicsans', 100, True)
 font2 = pygame.font.SysFont('Comicsans', 30, True)
-gmText = font.render('Game Over!', 1, (255, 0, 0))
 
 clock = pygame.time.Clock()
 
